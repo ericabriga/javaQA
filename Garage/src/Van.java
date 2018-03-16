@@ -1,9 +1,9 @@
 
-public class Vans extends Vehicle {
+public class Van extends Vehicle {
 
 	private int passengers;
 
-	public Vans(int passengers, int price, String brand, String name) {
+	public Van(int passengers, int price, String brand, String name) {
 		super(price, brand, name); // calls the constructor of superclass
 		this.passengers = passengers;
 

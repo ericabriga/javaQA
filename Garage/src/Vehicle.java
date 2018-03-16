@@ -10,6 +10,8 @@ public abstract class Vehicle {
 		this.price = price;
 		this.brand = brand;
 		this.name = name;
+		this.id = id;
+
 	}
 
 	public String getName() {
